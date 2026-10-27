@@ -1,0 +1,23 @@
+{
+  "name": "cleanily",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cleanily — mobilny audyt fotograficzny 5S dla Laboratorium OQC WM",
+  "scripts": {
+    "android:add": "cap add android",
+    "android:sync": "cap sync android",
+    "android:open": "cap open android",
+    "android:build:debug": "cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "8.0.0",
+    "@capacitor/core": "8.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "3.0.5",
+    "@capacitor/cli": "8.0.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
